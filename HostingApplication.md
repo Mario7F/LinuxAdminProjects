@@ -1,9 +1,12 @@
-Vagrant
+#### Creating a directory to keep within the Linux Projects Folder, initializing the Virtual Machine using Vagrant
 
 ![Screen Shot 2024-03-07 at 2 29 09 PM](https://github.com/Mario7F/RHEL9/assets/59115100/fcc51279-8af2-42ea-96cf-6b1434854f76)
 
+#### Configring vagrant file with private ip
+
 ![Screen Shot 2024-03-07 at 2 32 34 PM](https://github.com/Mario7F/RHEL9/assets/59115100/629c3293-f7f4-4e7c-ad07-3c31e294d76c)
 
+#### After configuration, spin up the vm
 ![Screen Shot 2024-03-07 at 2 40 40 PM](https://github.com/Mario7F/RHEL9/assets/59115100/ab7e2e08-d9ae-4719-8897-3503f1a4791f)
 
 ![Screen Shot 2024-03-07 at 2 43 20 PM](https://github.com/Mario7F/RHEL9/assets/59115100/54887db3-93be-4905-919e-1fbc0af8e094)
