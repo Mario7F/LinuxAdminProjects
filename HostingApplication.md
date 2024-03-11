@@ -58,11 +58,19 @@
 
 ![Screen Shot 2024-03-08 at 9 24 26 AM](https://github.com/Mario7F/RHEL9/assets/59115100/be51141b-5645-48a1-8f0b-61f9165e0497)
 
+#### Change ownership of the file and edit the PHP file to update the webtitle
+
 ![Screen Shot 2024-03-08 at 9 26 36 AM](https://github.com/Mario7F/RHEL9/assets/59115100/37f58a34-d291-4a2d-bc44-77d433a7a9e9)
+
+#### Updating php file and saving file
 
 ![Screen Shot 2024-03-08 at 9 27 27 AM](https://github.com/Mario7F/RHEL9/assets/59115100/eb19e0c7-55ef-4c9d-be19-6933e0120d4e)
 
+#### Refreshed page to reflect the name
+
 ![Screen Shot 2024-03-08 at 9 29 35 AM](https://github.com/Mario7F/RHEL9/assets/59115100/53e76989-7432-48b1-a86c-8a64f10c8830)
+
+#### Access the home page without the backend by putting in the IP address
 
 ![Screen Shot 2024-03-08 at 9 29 45 AM](https://github.com/Mario7F/RHEL9/assets/59115100/d64dddce-bb24-4a60-92c7-4ba73dfb692d)
 
