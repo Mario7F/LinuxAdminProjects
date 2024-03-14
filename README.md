@@ -2,7 +2,6 @@
 
 ## "Hosting A LAMP Server With An Application On Top"
 
-- Objective
   - Use Vagrant (an automation tool) to deploy CentOS (Linux) container
   - Edit the Vagrant config file, assigning private IP
   - Log in using SSH
@@ -13,8 +12,9 @@
   - Change the website title using php setting file
   - Redeploy app so it can reflect the change
   - Display the app without the backend
- 
-  
+
+## Building a NAS using SAMBA 
+## "Setting Up Rsync"
 ## "Ansible Automation" 
 ## "Container deployment And Management Using Kubernetes"
 ## "Monitoring Metrics With Grafana" . 
