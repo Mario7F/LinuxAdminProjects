@@ -13,7 +13,7 @@
   - Redeploy app so it can reflect the change
   - Display the app without the backend
 
-## Building a NAS using SAMBA 
+## Building a NAS using SAMBA" 
 ## "Setting Up Rsync"
 ## "Ansible Automation" 
 ## "Container deployment And Management Using Kubernetes"
