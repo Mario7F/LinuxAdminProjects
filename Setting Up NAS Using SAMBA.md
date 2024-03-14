@@ -30,3 +30,4 @@
 
 ![Screen Shot 2024-03-14 at 2 41 39 PM](https://github.com/Mario7F/RHEL9/assets/59115100/2028160d-99eb-4d4a-8254-907e6fbc389e)
 
+![Screen Shot 2024-03-14 at 3 17 36 PM](https://github.com/Mario7F/RHEL9/assets/59115100/3235c3ef-4ee7-4b92-9b9a-26eaf9c59592)
