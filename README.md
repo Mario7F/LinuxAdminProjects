@@ -13,7 +13,13 @@
   - Redeploy app so it can reflect the change
   - Display the app without the backend
 
-## Building a NAS using SAMBA" 
+## Building a NAS (Using Samba)" 
+
+- Create a VM
+- Install Samba
+- Edit the config file 
+- Set permissions for read/write for the user and group, read only for others
+-  Make sure you able to find it using another terminal
 ## "Setting Up Rsync"
 ## "Ansible Automation" 
 ## "Container deployment And Management Using Kubernetes"
