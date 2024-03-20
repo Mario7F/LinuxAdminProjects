@@ -1,6 +1,6 @@
 # LinuxAdminProjects
 
-## "Hosting A LAMP Server With An Application On Top"
+## Hosting A LAMP Server With An Application On Top
 
   - Use Vagrant (an automation tool) to deploy CentOS (Linux) container
   - Edit the Vagrant config file, assigning private IP
@@ -20,7 +20,13 @@
 - Edit the config file 
 - Set permissions for read/write for the user and group, read only for others
 -  Make sure you able to find it using another terminal
-## "Setting Up Rsync"
-## "Ansible Automation" 
-## "Container deployment And Management Using Kubernetes"
-## "Monitoring Metrics With Grafana" . 
+## Setting Up Rsync
+## Ansible Automation 
+## Container deployment
+
+  - Create static website
+  - Create an image of the site using Podman
+  - Deploy image onto Azure Web Services to host the site
+  - Show the results
+    
+## Monitoring Metrics With Grafana 
