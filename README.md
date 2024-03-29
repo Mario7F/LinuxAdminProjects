@@ -25,8 +25,8 @@
 ## Container deployment
 
   - Create static website
-  - Create an image of the site using Podman
-  - Deploy image onto Azure Web Services to host the site
-  - Show the results
+  - Create an image of the site using Docker
+  - Deploy image onto Alpine and provide it a port number
+  - Display the page
     
 ## Monitoring Metrics With Grafana 
