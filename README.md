@@ -20,7 +20,12 @@
 - Edit the config file 
 - Set permissions for read/write for the user and group, read only for others
 -  Make sure you able to find it using another terminal
+
+## Setting up Reverse Proxy
+
+- Set up reverse proxy using NGINX
 ## Setting Up Rsync
+
 ## Ansible Automation 
 ## Container deployment
 
