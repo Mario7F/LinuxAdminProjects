@@ -34,4 +34,10 @@
   - Deploy image onto Alpine and provide it a port number
   - Display the page
     
-## Monitoring Metrics With Grafana 
+## Set up a monitoring solution using Grafana 
+   - Use Vagrant (automation tool) to deploy a container
+   - Install influxdb and configure the file to read data
+   - Install telegraf to collect the data and display it in influxdb as a table
+   - Install and configure Grafana, open the application in the browser using the correct port
+   - Import influxdb into Grafana
+   - Display the dashboard
