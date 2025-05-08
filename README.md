@@ -1,5 +1,5 @@
 
-# LAMP Server Setup on Linux VM
+# Helpdesk-LAMP-Deploy
 
 This repository automates the deployment of a LAMP (Linux, Apache, MySQL, PHP) stack and the deployment of a Help Desk Application (Hesk) on an Ubuntu server with MariaDB.
 
