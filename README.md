@@ -17,11 +17,11 @@ This repository automates the deployment of a LAMP (Linux, Apache, MySQL, PHP) s
 - PHP test file
 - UFW firewall rules and basic system hardening
 
-## Structure 
-- 'install.sh' : Master install script
-- 'config/' : Apache and PHP configuration files
-- 'database/' : MariaDB setup and initialization scripts
-- 'app/' : Help desk app deployment
-- 'firewall/' " Firewall setup using UFW
-- 'system/' : Basic hardening and update scripts
+## 📂 Structure
+- `install.sh`: Master install script
+- `config/`: Apache and PHP configuration files
+- `database/`: MariaDB setup and initialization scripts
+- `app/`: Help desk app deployment
+- `firewall/`: Firewall setup using UFW
+- `system/`: Basic hardening and update scripts
 
