@@ -1,11 +1,20 @@
 #!/bin/bash
-echo "[*] Deploying osTicket..."
+echo "Deploying lamp"
 
-cd /tmp
-wget https://github.com/osTicket/osTicket/releases/download/v1.18/osTicket-v1.18.zip
-unzip osTicket-v1.18.zip
-sudo mv upload /var/www/html/osticket
-sudo chown -R www-data:www-data /var/www/html/osticket
-sudo chmod -R 755 /var/www/html/osticket
+ssh vagrant
+sudo dnf install -y httpd
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo dnf install -y php php-mysqlnd
+sudo dnf install -y mariadb-server
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
+sudo chown apache hesk_settings.inc.php
+sudo chown apache attachments
+sudo chown apache cache
+sudo chown apache language/en/emails/
+sudo rm -rf install
+sudo cp hesk_settings.inc.php hesk_settings.inc.php.bak
 
-echo "[✓] osTicket files deployed to /var/www/html/osticket"
+
+echo "Lamp deployed"
