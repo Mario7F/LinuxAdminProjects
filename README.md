@@ -1,37 +1,18 @@
-# LinuxAdminProjects
 
-## Hosting A LAMP Server With An Application On Top
+# LAMP Server Setup on Linux VM
 
-  - Use Vagrant (an automation tool) to deploy CentOS (Linux) container
-  - Edit the Vagrant config file, assigning private IP
-  - Log in using SSH
-  - Install Apache, MariaDB and PHP
-  - Start up applications
-  - Create an account for the database with password
-  - Set up Hesk database with username/password
-  - Change the website title using php setting file
-  - Redeploy app so it can reflect the change
-  - Display the app without the backend
+This repository automates the deployment of a LAMP (Linux, Apache, MySQL, PHP) server on Ubuntu Server. It’s designed for system administrators who want to practice Linux provisioning, firewall configuration, and web stack setup on a VM.
 
-## Building a NAS (Using Samba)" 
+## 📦 Stack Components
+- **Linux**: Ubuntu 22.04 (or similar)
+- **Apache**: Web server
+- **MySQL**: Database server (MariaDB optional)
+- **PHP**: Server-side scripting language
 
-- Create a VM
-- Install Samba
-- Edit the config file 
-- Set permissions for read/write for the user and group, read only for others
--  Make sure you able to find it using another terminal
+## 🚀 Features
+- Shell script automation
+- Secure MySQL setup
+- Basic Apache virtual host example
+- PHP test file
+- UFW firewall rules
 
-## Container deployment
-
-  - Create static website
-  - Create an image of the site using Docker
-  - Deploy image onto Alpine and provide it a port number
-  - Display the page
-    
-## Set up a monitoring solution using Grafana 
-   - Use Vagrant (automation tool) to deploy a container
-   - Install influxdb and configure the file to read data
-   - Install telegraf to collect the data and display it in influxdb as a table
-   - Install and configure Grafana, open the application in the browser using the correct port
-   - Import influxdb into Grafana
-   - Display the dashboard
